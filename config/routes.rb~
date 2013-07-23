@@ -20,7 +20,6 @@ MusicStreamer::Application.routes.draw do
   
   root 'root#index'
   post 'login' => 'root#login'
-  get 'logout' => 'root#logout'
 
   # Example resource route with options:
   #   resources :products do
